@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #0A0E1A;
+    --bg-card: #111827;
+    --bg-card-hover: #172238;
+    --accent-teal: #2DD4BF;
+    --accent-teal-glow: rgba(45, 212, 191, 0.25);
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+  }
+
+  .light {
+    --bg-main: #0F172A;
+    --bg-card: #1E293B;
+    --bg-card-hover: #27354E;
+    --accent-teal: #14B8A6;
+    --accent-teal-glow: rgba(20, 184, 166, 0.25);
+    --text-primary: #FFFFFF;
+    --text-secondary: #CBD5E1;
+    --border-subtle: rgba(255, 255, 255, 0.12);
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom glassmorphism and glow utility classes */
+.glass-card {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(23, 34, 56, 0.85);
+  border-color: rgba(45, 212, 191, 0.3);
+  box-shadow: 0 10px 30px -10px rgba(45, 212, 191, 0.15);
+}
+
+.teal-glow {
+  box-shadow: 0 0 25px -5px rgba(45, 212, 191, 0.3);
+}
+
+.teal-glow-sm {
+  box-shadow: 0 0 15px -3px rgba(45, 212, 191, 0.25);
+}
+
+.teal-text-gradient {
+  background: linear-gradient(135deg, #2DD4BF 0%, #5EEAD4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0E1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F293D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2DD4BF;
+}
