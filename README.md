@@ -107,29 +107,4 @@ All projects are organized in `src/data/projects.js`. Active GitHub code reposit
 
 ---
 
-## 🎨 Customization Guide
-
-### 1. Update Projects
-Open `src/data/projects.js` and edit the array objects:
-```javascript
-{
-  title: "AI-Powered Course Progress & Learning Dashboard",
-  category: "Full Stack", // "Full Stack" | "Automation" | "AI App"
-  domain: "Learning Systems & Real-Time Tracking",
-  description: "An end-to-end course progress tracking platform...",
-  techStack: ["Python", "Django", "JavaScript", "PostgreSQL"],
-  highlights: [
-    "Independently engineered full-stack UI and scalable backend architecture",
-    "Real-time organization-wide analytics into course completion status"
-  ],
-  githubLink: "https://github.com/123rifakhan650/ai-course-tracking-dashboard",
-  liveLink: "https://github.com/123rifakhan650/ai-course-tracking-dashboard"
-}
-```
-
-### 2. Configure Contact Form
-Open `src/components/Contact.tsx` and supply your free [EmailJS](https://www.emailjs.com) service credentials (`EMAILJS_SERVICE_ID`, `EMAILJS_TEMPLATE_ID`, `EMAILJS_PUBLIC_KEY`) to receive client messages directly to your inbox.
-
----
-
 
