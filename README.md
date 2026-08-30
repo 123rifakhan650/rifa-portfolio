@@ -212,6 +212,4 @@ Open `src/components/Contact.tsx` and supply your free [EmailJS](https://www.ema
 
 ---
 
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
 
