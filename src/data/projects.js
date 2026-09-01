@@ -30,15 +30,15 @@ export const projects = [
     title: "AI Career Counselling Platform (LLM-Powered)",
     category: "AI App",
     domain: "AI Systems & Generative LLMs",
-    description: "An intelligent career counselling application powered by Large Language Models that analyzes user skill sets, background, and aspirations to generate personalized career recommendations and structured growth roadmaps.",
-    techStack: ["Python", "Flask", "React", "LLM APIs", "Prompt Engineering", "Tailwind CSS"],
+    description: "An intelligent career counselling application powered by Large Language Models that analyzes user skills, background, aspirations, and target country to generate personalized career recommendations, skill-gap analysis, Job vs Master's guidance, company insights, and structured career roadmaps.",
+    techStack: ["React", "TypeScript", "Node.js", "Express.js", "Gemini API", "LLM Integration", "Prompt Engineering", "REST APIs", "Tailwind CSS", "Vite"],
     highlights: [
-      "Custom prompt engineering pipeline for multi-factor skill & experience parsing",
-      "Personalized career pathway generation with actionable milestone benchmarks",
-      "Interactive responsive assessment interface with dynamic streaming feedback"
+       "Custom prompt engineering pipeline for multi-factor skill, experience, and aspiration analysis",
+       "Personalized career recommendations with skill-gap analysis and actionable growth roadmaps", 
+       "Job vs Master's decision support with country-specific career and company insights"
     ],
     githubLink: "https://github.com/123rifakhan650/ai-career-counselling-app",
-    liveLink: "https://github.com/123rifakhan650/ai-career-counselling-app"
+    liveLink: "https://ai-career-counselling-app-2.onrender.com/"
   },
   {
     title: "Full-Stack Task Manager with AI & Docker CI/CD",
