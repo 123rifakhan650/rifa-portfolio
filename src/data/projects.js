@@ -41,25 +41,25 @@ export const projects = [
     liveLink: "https://ai-career-counselling-app-2.onrender.com/"
   },
   {
-    title: "Full-Stack Task Manager with AI & Docker CI/CD",
+    title: "Django Full-Stack Task Orchestrator with AI & Docker CI/CD",
     category: "Full Stack",
     domain: "DevOps & Intelligent Task Systems",
-    description: "A production-grade, containerized full-stack task manager built with Docker and automated CI/CD pipelines, integrated with AI logic for automated task classification, priority weighting, and smart scheduling.",
-    techStack: ["Python", "Django", "React", "Docker", "CI/CD", "PostgreSQL", "AI Integration"],
+    description: "An enterprise-grade, Django REST Framework-powered task orchestration platform backed by PostgreSQL and React, featuring an interactive Eisenhower Priority Matrix, automated recurring scheduling, and Gemini AI for intelligent workflow automation.",
+    techStack: ["Python", "Django", "React", "Docker", "CI/CD", "PostgreSQL", "AI Integration", "TypeScript", "Gemini AI"],
     highlights: [
-      "Fully containerized multi-service architecture using Docker & Docker Compose",
-      "Automated CI/CD build, linting, test suite, and container deployment pipelines",
-      "AI-assisted task decomposition and intelligent automated priority ranking"
+      "Fully containerized multi-service architecture using Docker, Docker Compose, and automated CI/CD pipelines",
+      "Interactive Eisenhower 2×2 Priority Matrix with real-time severity scoring and recurring schedule engine",
+      "Gemini AI integration for natural language task parsing, automated decomposition, and priority ranking"
     ],
     githubLink: "https://github.com/123rifakhan650/task-manager-ai-docker",
-    liveLink: "https://github.com/123rifakhan650/task-manager-ai-docker"
+    liveLink: "https://taskflow-django-api.onrender.com/"
   },
   {
     title: "AI-Powered Course Progress & Learning Dashboard",
     category: "Full Stack",
     domain: "Learning Systems & Real-Time Tracking",
     description: "An end-to-end course progress tracking platform with a real-time reactive UI, Django backend architecture, relational database models, and automated reporting workflows for tracking AI/ML course completions.",
-    techStack: ["Python", "Django", "JavaScript", "PostgreSQL", "REST APIs", "Tailwind CSS"],
+    techStack: ["Python", "Django", "JavaScript", "PostgreSQL", "REST APIs", "HTML", "CSS"],
     highlights: [
       "Independently engineered full-stack UI and scalable backend architecture",
       "Real-time organization-wide analytics into course completion status",
